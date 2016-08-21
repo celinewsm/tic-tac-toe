@@ -35,7 +35,7 @@ function selectSymbol() {
 var grid = document.getElementsByClassName("box")
 
 function playerTurn() {
-	if (endGame !== true && this.classList.length === 1) {
+	if (endGame !== true) {
 		if (selected === "chooseO") {
 			this.classList.add("O");
 			this.textContent = "◯";
