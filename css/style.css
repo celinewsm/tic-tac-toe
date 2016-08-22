@@ -1,7 +1,15 @@
+body {
+  /*background-color: #10394f;*/
+  font-family: 'Dosis', sans-serif;
+}
+
+header {
+  padding: 1em;
+}
 
 #popUpDiv {
   position: absolute;
-  top: 20%;
+  top: 25%;
   left: 30%;
   width: 40%;
   height: 40%;
@@ -14,7 +22,6 @@
   margin: 0;
   width: 100%;
   text-align: center;
-
   /* set the text to be halfway down */
   top: 40%;
   font-size: 20pt;
@@ -25,11 +32,13 @@
 
 .selector {
   /*font-size: 56pt;*/
-  color: black;
+  /*color: black;*/
+  font-weight: bold;
 }
 
 h1 {
-  color: gray;
+  /*color: gray;*/
+
 }
 
 .container{
@@ -62,7 +71,7 @@ h1 {
   /*border: 0;*/
   /*border: solid black 1px;*/
   vertical-align: middle;
-  font-size: 70pt;
+  font-size: 60pt;
 }
 
 
@@ -158,10 +167,10 @@ h1 {
 }
 
 .O {
-  background-color: red;
+  background-color: #00be9c;
 }
 
 
 .X {
-    background-color: blue;
+    background-color: #9c56b8;
 }
